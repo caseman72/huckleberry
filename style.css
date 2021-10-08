@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: darkgrey;
+  background-color: hsl(0deg, 0%, 60%);
 }
 
 /* Add styles here! */
@@ -22,8 +22,8 @@ body {
   padding-bottom: 20px;
 }
 header {
-  border-bottom: 4px solid grey;
-  background-color: white;
+  border-bottom: 4px solid hsl(0deg, 0%, 30%);
+  background-color: hsl(0deg, 0%, 100%);
 }
 .intro-chunk, .card {
   padding: 20px;
@@ -33,21 +33,21 @@ header {
 }
 .card {
   margin-top: 40px;
-  background-color: white;
-  border-bottom: 4px solid grey;
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 4px solid hsl(0deg, 0%, 30%);
 }
 .indented-heading {
   margin-top: -12px;
   margin-left: -30px;
-  background-color: orange;
   max-width: max-content;
   padding: 16px 32px;
-  border-bottom: 4px solid darkgrey;
+  background-color: hsl(45deg, 100%, 50%); /* (lighter) */
+  border-bottom: 4px solid hsl(45deg, 100%, 40%); /* (darker) */
 }
 main {
-  background-color: darkgrey;
+  background-color: hsl(0deg, 0%, 60%);
 }
 
 strong {
-  color: green;
+  color: hsl(160deg, 100%, 30%);
 }
